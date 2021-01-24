@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center !important;
+    color: #51575D;
+}
+
+@media (max-width: 500px) {
+    
+    * {
+        font-size: 0.9rem;
+    } 
+
+}
+
+#main {
+    min-height: 100vh;
+    background: #E4E6E3;
+    padding-top: 1rem;
+}
+
+#title {
+    background: #BEC2BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 3rem;
+    text-shadow: 1px 1px 2px #51575D;
+}
+
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0.5rem;
+}
+
+
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    position: relative;
+    padding-top: 0.5rem;
+}
+
+a:visited {
+    color: #76806E;
+}
+
+a {
+    color: black;
+}
+
+#heading {
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 2em;
+}
+
+#tribute-info {
+    margin: auto;
+}
+
+#tribute-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#accomplishments {
+    position: relative;
+    font-style: italic;
+}
